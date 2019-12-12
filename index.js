@@ -6,7 +6,6 @@ function solution(n) {
     for (let i of n2){
       if(c != i ){
         return c
-        break
       }
       c += 1
     }
